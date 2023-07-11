@@ -215,14 +215,8 @@ public class Dos implements Runnable {
         int attakingAmoun = 0;
         Dos dos = new Dos(0, 0);
         Scanner in = new Scanner(System.in);
-        System.out.print("
-\u001B[37m  __  _______    _   _________  ____  _______
-\u001B[37m/ / / / ___/   / | / / ____/ |/ / / / / ___/
-\u001B[37m / / / /\__ \   /  |/ / __/  |   / / / /\__ \ 
-\u001B[37m/ /_/ /___/ /  / /|  / /___ /   / /_/ /___/ / 
-\u001B[37m\____//____/  /_/ |_/_____//_/|_\____//____/  
-\u001B[37m Made By US NEXUS CYBER 
-\u001B[37m ENTER URL");
+        System.out.print("\u001B[37m Made By USNEXUS CYBER ENTER URL:\u001B[37m");
+        print("\u001B[37m Made By USNEXUS CYBER ENTER URL:\u001B[37m");
         url = in.nextLine();
         System.out.println("\n");
         System.out.println("Starting Attack to url: " + url);
